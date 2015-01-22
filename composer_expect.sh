@@ -1,5 +1,5 @@
 #!/usr/bin/expect -f
-
+source /etc/profile.d/vagrant.sh
 set timeout 2 
 
 spawn composer install
